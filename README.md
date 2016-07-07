@@ -7,4 +7,6 @@ Run the executable. It should make a UnderGMX.gmx folder and inside has the proj
 
 Note: Only sprites are fully functional as of now.
 
+NOTE 2: Some code for rooms and objects are commented out because they take so long, and they're not implemented yet so it really doesn't matter. You can uncomment them in the Program.cs file.
+
 WARNING: Errors may occur in GM:S, just dismiss all of them for now. Also, there are unused variables. I know.
