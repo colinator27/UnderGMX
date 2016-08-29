@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -274,6 +274,9 @@ namespace UnderGMX
 
             Sprites.copySprites(appDir);
             Sprites.writeSprites(appDir,spritenames);
+
+            Backgrounds.copyBackgrounds(appDir);
+            Backgrounds.writeBackgrounds(appDir,bgnames);
 
             Console.WriteLine("GMX Project File Compiled successfully!");
             Console.WriteLine("Press any key to exit."); //Finish off application.
