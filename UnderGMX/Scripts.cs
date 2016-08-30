@@ -25,7 +25,7 @@ namespace UnderGMX
                 bool foundbend = false;
                 while (i2 < filecontent.Length)
                 {
-                    if(foundbend == true) filecontentstr += (filecontent[i2] + Environment.NewLine);
+                    if(foundbend == true) filecontentstr += (filecontent[i2].Replace("self.","") + Environment.NewLine);
                     if(foundbend == false)
                     {
                         if(filecontent[i2] == "*/")
