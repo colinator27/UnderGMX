@@ -275,8 +275,13 @@ namespace UnderGMX
             Sprites.copySprites(appDir);
             Sprites.writeSprites(appDir,spritenames);
 
+            Sounds.copySounds(appDir);
+            Sounds.writeSounds(appDir,soundnames);
+
             Backgrounds.copyBackgrounds(appDir);
             Backgrounds.writeBackgrounds(appDir,bgnames);
+
+            Scripts.writeScripts(appDir, scrnames);
 
             Console.WriteLine("GMX Project File Compiled successfully!");
             Console.WriteLine("Press any key to exit."); //Finish off application.
